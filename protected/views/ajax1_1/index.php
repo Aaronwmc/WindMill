@@ -18,10 +18,10 @@ function test()
              type: "POST",
              url: "index.php?r=ajax1_1/addAngle",
              data:{} ,
-             dataType: "html",
+             dataType: "html",    
              success: function(html){
                  $("#addAngles").append(html);
            }
      }) ; 
 }
-</script> 
+</script>   
